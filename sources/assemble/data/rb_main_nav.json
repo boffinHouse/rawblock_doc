@@ -1,0 +1,19 @@
+{
+	"default": {
+		"title": "Main Navigation",
+		"items": [
+			{
+				"title": "Getting Started",
+				"link": "getting_started.html"
+			},
+			{
+				"title": "Grid Layout",
+				"link": "grid_layout.html"
+			},
+			{
+				"title": "Components",
+				"link": "components.html"
+			}
+		]
+	}
+}

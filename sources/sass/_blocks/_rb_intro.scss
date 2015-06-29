@@ -1,0 +1,24 @@
+/*********************************************************
+
+rb-stage
+----------------------------------------------------------
+The main intro element of the startpage
+**********************************************************/
+$font-family: $font-sans-serif;
+.rb-intro {
+	width: 100%;
+	padding: 30px;
+	background: $color-3b;
+
+	.intro-title {
+		margin: 0 0 10px;
+		font: rem-calc(38)/1.2 $font-header;
+		color: $color-3g;
+	}
+
+	.intro-text {
+		margin: 0;
+		font: rem-calc(18)/1.4 $font-family;
+		color: $color-3g;
+	}
+}

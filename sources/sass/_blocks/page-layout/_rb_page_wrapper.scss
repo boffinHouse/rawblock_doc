@@ -1,0 +1,14 @@
+/*********************************************************
+
+rb-page-wrapper
+----------------------------------------------------------
+Main wrapper of the website
+**********************************************************/
+.rb-page-wrapper {
+	//Global Styles
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+
+	min-height: 100vh;
+ }
