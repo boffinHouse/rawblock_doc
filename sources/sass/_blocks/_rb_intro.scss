@@ -12,13 +12,13 @@ $font-family: $font-sans-serif;
 
 	.intro-title {
 		margin: 0 0 10px;
-		font: rem-calc(38)/1.2 $font-header;
+		font: rb-rem-calc(38)/1.2 $font-header;
 		color: $color-3g;
 	}
 
 	.intro-text {
 		margin: 0;
-		font: rem-calc(18)/1.4 $font-family;
+		font: rb-rem-calc(18)/1.4 $font-family;
 		color: $color-3g;
 	}
 }

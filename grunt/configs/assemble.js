@@ -6,10 +6,10 @@
 module.exports = {
 
 	options: {
-		data: '<%= paths.src %>/assemble/data/**/*.{json,yml}',
+		data: '<%= paths.src %>/assemble/data/**/*.{json,yml, md}',
 		helpers: ['handlebars-helper-partial', '<%= paths.src %>/assemble/helpers/**/*.js'],
 		layoutdir: '<%= paths.src %>/assemble/layouts/',
-		partials: ['<%= paths.src %>/assemble/partials/**/*.hbs']
+		partials: ['<%= paths.src %>/assemble/partials/**/*.{hbs,md}']
 	},
 	dev: {
 		options: {

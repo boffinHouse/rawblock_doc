@@ -12,13 +12,13 @@ $font-family: $font-sans-serif;
 
 	.stage-title {
 		margin: 0 0 20px;
-		font: rem-calc(100)/1.2 $font-header;
+		font: rb-rem-calc(100)/1.2 $font-header;
 		color: $color-4k;
 	}
 
 	.stage-text {
 		margin: 0;
-		font: rem-calc(28)/1.4 $font-family;
+		font: rb-rem-calc(28)/1.4 $font-family;
 		color: $color-3g;
 	}
 }

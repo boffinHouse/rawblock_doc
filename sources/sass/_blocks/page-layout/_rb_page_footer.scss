@@ -5,10 +5,10 @@ rb-page-footer
 Main footer Element Page
 **********************************************************/
 .rb-page-footer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
 	width: 100%;
+	min-height: 200px;
 	background: $color-3a;
-
-	.rb-col-group {
-		max-width: inherit;
-	}
 }

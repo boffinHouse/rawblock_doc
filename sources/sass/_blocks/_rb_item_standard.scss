@@ -9,17 +9,25 @@ $item-standard-padding: 20px 30px;
 
 $item-standard-mediabox-margin: 0 0 10px;
 
-
-
 .rb-item-standard {
+	position: relative;
 	width: 100%;
 	background: $item-standard-bg-color;
 	padding: $item-standard-padding;
 
 	.item-standard-title {
 		margin: 0 0 20px;
-		font: rem-calc(38)/1.2 $font-header;
+		font: rb-rem-calc(38)/1.2 $font-header;
 		color: $color-3g;
+	}
+
+	.item-standard-link {
+		@include rb-hide-text;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	}
 
 	.item-standard-mediabox {
@@ -43,7 +51,7 @@ $item-standard-mediabox-margin: 0 0 10px;
 	}
 
 	.item-standard-text {
-		font: rem-calc(18)/1.4 $font-sans-serif;
+		font: rb-rem-calc(18)/1.4 $font-sans-serif;
 		margin: 0;
 		color: $color-3g;
 	}

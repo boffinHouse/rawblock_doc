@@ -21,7 +21,7 @@ Main logo of the website
 	}
 
 	.logo-title {
-		@extend %hide-text;
+		@include rb-hide-text;
 		height: 20px;
 		width: 200px;
 		margin: auto;

@@ -1,22 +1,22 @@
 <article class="rb-item-standard">
-	{{#if link}}<a href="{{ link }}">{{/if}}
-	{{#if media}}
-		<div class="item-standard-mediabox">
-			<div class="item-standard-mediabox-inner">
-				<img class="item-standard-media" src="{{ media.image.src }}" alt=""/>
+	<div class="item-standard-inner">
+		{{#if media}}
+			<div class="item-standard-mediabox">
+				<div class="item-standard-mediabox-inner">
+					<img class="item-standard-media" src="{{ media.image.src }}" alt=""/>
+				</div>
 			</div>
-		</div>
-	{{/if}}
-	{{#or title hook }}
-		<div class="item-standard-textbox">
-			{{#if title}}
-				<h2 class="item-standard-title">{{ title }}</h2>
-			{{/if}}
-			{{#if hook }}
-				<p class="item-standard-text">{{ hook }}</p>
-			{{/if}}
-		</div>
-	{{/or}}
-
-	{{#if link}}</a>{{/if}}
+		{{/if}}
+		{{#or title hook }}
+			<div class="item-standard-textbox">
+				{{#if title}}
+					<h2 class="item-standard-title">{{ title }}</h2>
+				{{/if}}
+				{{#if hook }}
+					<p class="item-standard-text">{{ hook }}</p>
+				{{/if}}
+			</div>
+		{{/or}}
+	</div>
+	{{#if link}}<a class="item-standard-link" href="{{ link }}">{{ title }}</a>{{/if}}
 </article>
