@@ -4,7 +4,7 @@ layout: default_tpl.hbs
 ---
 
 <section class="rb-page-section">
-	<div class="rb-page-inner is-col-group is-gutter">
+	<div class="page-section-block   is-col-group is-gutter">
 
 		<div class="is-size-100 is-size-75-l">
 			{{#with startpage.stage }}
@@ -12,7 +12,7 @@ layout: default_tpl.hbs
 			{{/with}}
 		</div>
 
-		<div class="is-size-100">
+		<div class="is-size-100 is-size-25-l">
 			{{> rb_test_teaser }}
 		</div>
 
@@ -21,17 +21,17 @@ layout: default_tpl.hbs
 
 <section class="rb-page-section">
 
-	<div class="rb-page-inner is-col-group is-gutter">
-		<div class="is-size-66">
+	<div class="page-section-block is-col-group is-gutter">
+		<div class="is-size-100 is-size-66-l">
 			{{#with startpage.intro }}
 				{{> rb_intro }}
 			{{/with}}
 		</div>
 	</div>
 
-	<div class="rb-page-inner is-col-group is-gutter">
+	<div class="page-section-block is-col-group is-gutter">
 		{{#each startpage.productItems }}
-			<div class="is-size-33">
+			<div class="is-size-33 is-size-50-m is-size-100-s">
 				{{> rb_item_standard }}
 			</div>
 		{{/each}}

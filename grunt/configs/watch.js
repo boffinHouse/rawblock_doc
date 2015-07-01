@@ -53,4 +53,8 @@ module.exports = {
 		files: ['<%= paths.src %>/assemble/**/*.{json,hbs}'],
 		tasks: ['newer:assemble:dev', 'prettify:dev']
 	},
+	doc_content: {
+		files: ['<%= paths.src %>/doc_content/**/*.md'],
+		tasks: ['newer:assemble:dev', 'prettify:dev']
+	}
 };
