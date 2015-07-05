@@ -6,18 +6,18 @@
 //      global-style-config
 //  ]
 //=====================================================================
-@mixin rb-generate-global-styles($configs) {
+@mixin rb-generate-layout-styles($configs) {
 	//Styles breakpoints
 	@each $className, $config in $configs {
 		$gutter: map-get($config, gutter);
 		$flexOrderSize: map-get($config, flexOrderSize);
 
 		@if $className == 'all' {
-			@include rb-global-style-config($className, $gutter, $flexOrderSize);
+			@include rb-layout-styles($className, $gutter, $flexOrderSize);
 			@include rb-generate-layout-columns();
 		} @else {
 			@media #{map-get($config, media)} {
-				@include rb-global-style-config($className, $gutter, $flexOrderSize);
+				@include rb-layout-styles($className, $gutter, $flexOrderSize);
 			}
 		}
 
@@ -35,7 +35,7 @@
 //      order
 //  ]
 //=====================================================================
-@mixin rb-global-style-config($className, $gutter, $flexOrderSize) {
+@mixin rb-layout-styles($className, $gutter, $flexOrderSize) {
 	@include rb-size-generator($className);
 	@include rb-size-gutter-generator($className, $gutter);
 	@include rb-flex-order-generator($className, $flexOrderSize);
