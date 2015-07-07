@@ -1,0 +1,22 @@
+<nav class="rb-sub-nav">
+	<ul class="sub-nav-group">
+		{{#each items }}
+			<li class="sub-nav-section">
+				{{#if title }}
+					<h2 class="sub-nav-heading">{{ title }}</h2>
+				{{/if}}
+				{{#if items }}
+					<ul class="sub-nav-list">
+						{{#each items }}
+							<li class="sub-nav-item">
+								<a href="{{ link }}" class="sub-nav-item-link">{{ title }}</a>
+							</li>
+						{{/each}}
+					</ul>
+				{{/if}}
+
+			</li>
+		{{/each}}
+
+	</ul>
+</nav>

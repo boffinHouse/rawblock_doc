@@ -1,11 +1,7 @@
 {
-	"stage": {
-		"title": "RawBlock",
-		"hook": "The worlds most flexible and efficient responsive component library to build modular HTML5 web interfaces."
-	},
 	"intro": {
-		"title": "What is RawBlock?",
-		"hook": "RawBlock gives you a way to build modular interfaces which are easy to maintain for future optimizations. It combines modern best practices, new technologies and solution to optimize the frontend development process."
+		"title": "Getting Started with RawBlock",
+		"hook": "Follow these steps and start building great projects with RawBlock."
 	},
 	"mainNav": {
 		"title": "Main Navigation",
@@ -24,6 +20,7 @@
 			}
 		]
 	},
+
 	"productItems": [
 		{
 			"title": "Starter Kit",

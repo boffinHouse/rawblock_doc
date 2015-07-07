@@ -14,11 +14,11 @@ Subordinated navigation linklist.
 	}
 
 	.sub-nav-section {
-
+		margin: 0 0 20px 0;
 	}
 
 	.sub-nav-heading {
-		margin: 0 0 20px;
+		margin: 0 0 10px;
 		font-weight: 400;
 	}
 
@@ -31,6 +31,14 @@ Subordinated navigation linklist.
 	}
 
 	.sub-nav-item-link {
+		display: block;
+		padding: 5px 0;
+		color: $color-2a;
 
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+			color: $color-2b;
+		}
 	}
 }

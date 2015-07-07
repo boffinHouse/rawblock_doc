@@ -1,11 +1,7 @@
 {
-	"stage": {
-		"title": "RawBlock",
-		"hook": "The worlds most flexible and efficient responsive component library to build modular HTML5 web interfaces."
-	},
 	"intro": {
-		"title": "What is RawBlock?",
-		"hook": "RawBlock gives you a way to build modular interfaces which are easy to maintain for future optimizations. It combines modern best practices, new technologies and solution to optimize the frontend development process."
+		"title": "Gridlayout",
+		"hook": "RawBlock provides a layout grid system that is flexible, responsive and uses a human readable syntax."
 	},
 	"mainNav": {
 		"title": "Main Navigation",
@@ -24,21 +20,21 @@
 			}
 		]
 	},
-	"productItems": [
-		{
-			"title": "Starter Kit",
-			"hook": "To boost your project startup. Start your project with the Rawblock Starter Kit.",
-			"link": "getting_started.html"
-			},
-		{
-			"title": "Grid Layout",
-			"hook": "We use flexible, multi-device and human readable syntax to setup the basis of your site.",
-			"link": "layout.html"
-		},
-		{
-			"title": "Components",
-			"hook": "A key aspect of RawBlock is modularity. We archieve this by creating isolated components who are context unaware.",
-			"link": "components.html"
-		}
-	]
+	"subNav": {
+		"items": [
+			{
+				"title": "Grid",
+				"items": [
+					{
+						"title": "Basic principles",
+						"link": "#basic-principles"
+					},
+					{
+						"title": "Basic principles",
+						"link": "#basic-principles"
+					}
+				]
+			}
+		]
+	}
 }

@@ -4,4 +4,27 @@ layout: default_tpl.hbs
 ---
 
 
+<section class="rb-page-section is-highlight-1">
+	<div class="page-section-block is-column-group is-gutter">
+		<div class="is-size-80">
+			{{#with gridlayout.intro }}
+				{{> rb_intro }}
+			{{/with}}
+		</div>
+	</div>
 
+	<div class="page-section-block is-column-group is-gutter">
+		<div class="is-size-30">
+			{{#with gridlayout.subNav }}
+				{{> rb_sub_nav }}
+			{{/with}}
+		</div>
+
+		<div class="is-size-70">
+			<div class="rb-richtext">
+				{{md '**/grid_layout.md' }}
+			</div>
+		</div>
+
+	</div>
+</section>
