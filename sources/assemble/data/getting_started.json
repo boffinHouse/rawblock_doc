@@ -19,23 +19,5 @@
 				"link": "components.html"
 			}
 		]
-	},
-
-	"productItems": [
-		{
-			"title": "Starter Kit",
-			"hook": "To boost your project startup. Start your project with the Rawblock Starter Kit.",
-			"link": "getting_started.html"
-			},
-		{
-			"title": "Grid Layout",
-			"hook": "We use flexible, multi-device and human readable syntax to setup the basis of your site.",
-			"link": "layout.html"
-		},
-		{
-			"title": "Components",
-			"hook": "A key aspect of RawBlock is modularity. We archieve this by creating isolated components who are context unaware.",
-			"link": "components.html"
-		}
-	]
+	}
 }
