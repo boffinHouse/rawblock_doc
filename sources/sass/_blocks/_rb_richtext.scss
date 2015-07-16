@@ -5,7 +5,7 @@ rb-richtext
 
 **********************************************************/
 //Headers
-$richtext-font-h1: sans-serif !default;
+$richtext-font-h1: $font-header !default;
 $richtext-fontsize-h1: rb-rem-calc(55) !default;
 $richtext-lineheight-h1: rb-rem-calc(64) !default;
 $richtext-color-h1: #666 !default;
@@ -15,20 +15,20 @@ $richtext-font-h2: $richtext-font-h1 !default;
 $richtext-fontsize-h2:  rb-rem-calc(29) !default;
 $richtext-lineheight-h2: rb-rem-calc(32) !default;
 $richtext-color-h2: #666 !default;
-$richtext-margin-h2: rb-rem-calc(0 0 10) !default;
+$richtext-margin-h2: rb-rem-calc(20 0 10) !default;
 
 $richtext-font-h3: $richtext-font-h1 !default;
 $richtext-fontsize-h3: rb-rem-calc(24) !default;
 $richtext-lineheight-h3: rb-rem-calc(29) !default;
 $richtext-color-h3: #666 !default;
-$richtext-margin-h3: rb-rem-calc(0 0 15) !default;
+$richtext-margin-h3: rb-rem-calc(15 0 15) !default;
 
 //Text (paragraph/lists)
-$richtext-font-text: sans-serif !default;
+$richtext-font-text: $font-sans-serif !default;
 $richtext-fontsize-text: rb-rem-calc(18) !default;
-$richtext-lineheight-text: rb-rem-calc(24) !default;
+$richtext-lineheight-text: rb-rem-calc(30) !default;
 $richtext-color-text: #666 !default;
-$richtext-margin-text: rb-rem-calc(0 0 30) !default;
+$richtext-margin-text: rb-rem-calc(0 0 20) !default;
 $richtext-link-color: blue !default;
 
 //List-items
@@ -216,10 +216,10 @@ $richtext-background-tr-even: transparent !default;
 			&::before {
 				content: "";
 				position: absolute;
-				top: 8px;
+				top: 13px;
 				left: 3px;
-				width: rb-rem-calc(6);
-				height: 6px;
+				width: rb-rem-calc(7);
+				height: rb-rem-calc(7);
 				border-radius: 50%;
 				background: $richtext-color-text;
 			}

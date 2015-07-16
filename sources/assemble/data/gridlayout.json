@@ -23,15 +23,15 @@
 	"subNav": {
 		"items": [
 			{
-				"title": "Grid",
+				"title": "Layout",
 				"items": [
 					{
 						"title": "Basic principles",
 						"link": "#basic-principles"
 					},
 					{
-						"title": "Basic principles",
-						"link": "#basic-principles"
+						"title": "The Grid",
+						"link": "#the-grid"
 					}
 				]
 			}

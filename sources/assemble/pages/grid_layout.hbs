@@ -23,9 +23,21 @@ layout: default_tpl.hbs
 		<div class="is-size-70">
 			<div class="rb-richtext  language-markup"">
 				{{md '**/grid_layout.md' }}
-			</div>
 
-			{{> grid-markup }}
+				{{md '**/the_grid.md' }}
+
+				<div class="rb-example">
+					<div class="is-column-group">
+						<div class="is-size-50">
+							{{> rb_test_teaser }}
+						</div>
+						<div class="is-size-50">
+							{{> rb_test_teaser }}
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
 
 	</div>
