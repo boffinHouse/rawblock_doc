@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"title": "Gridlayout",
-		"hook": "RawBlock provides a layout grid system that is flexible, responsive and uses a human readable syntax."
+		"hook": "RawBlock provides a layout setup that is flexible, responsive and uses a human readable syntax."
 	},
 	"mainNav": {
 		"title": "Main Navigation",

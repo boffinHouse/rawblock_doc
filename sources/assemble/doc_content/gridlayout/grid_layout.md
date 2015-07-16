@@ -1,15 +1,19 @@
-#Basic principles
+##Basic principles
+The structure of the layout is defined by the use of modifier classes. Modifiers are flags set on block or element to represent a different state or version and are always prefixed with `.is-*`. The layout modifiers are globally defined and can be
+used on all elements of the page.
 
-The Flexible box layout mode, or flexbox, introduces some very interesting features that we've used in Ink. Most of them are relative to the grid system but as you probably know, or will find out, that means they affect many other components in the framework.
+##The Grid
+The layout grid targets several screen sizes. Our gridsystem takes an other approach then many other frameworks. RawBlock is not based on a 12 columns or 16 columns grid, but uses **percentage** as his base units.
 
-These new features include:
+We use 22 width units that are starting with `.is-size-*` ranging from **5%** to **100%** with **5%** increments.
 
-- Control over an elements vertical and horizontal alignment.
-- Control over the content vertical and horizontal alignment.
-- Reordering elements in your layouts independently of their order in the markup.
-- Reversing element flow, i.e. back to front and bottom to top.
-- Automatic width distribution i.e. grids without having to declare widths.
-- On this page we'll cover all the places where flexbox feature enhancement exists and how to take advantage of them.
-- On this page we'll cover all the places where flexbox feature enhancement exists and how to take advantage of them.
+Inside file `_rb_layout_config.scss` in directory `sources/sass/variables` you can find the variable `$breakpointConfig` where you can declare your breakpoints and give the specific **breakpoint-class**.
 
-Be aware that the Flexible box layout mode is still at the Candidate Recommendation stage of the specification and even though the W3C encourages browser makers to implement it, it is subject to change before the final version of the specification.
+Property `all` is **mandatory** and defines the layout styles for all screensizes. The other properties can be changed or complemented. These properties also serve as de
+
+	<div class="is-column-group">
+		<div class="is-size-50"></div>
+		<div class="is-size-50"></div>
+	</div>
+
+

@@ -54,7 +54,7 @@ module.exports = {
 		tasks: ['newer:assemble:dev', 'prettify:dev']
 	},
 	doc_content: {
-		files: ['<%= paths.src %>/doc_content/**/*.md'],
+		files: ['<%= paths.src %>/assemble/doc_content/**/*.md'],
 		tasks: ['newer:assemble:dev', 'prettify:dev']
 	}
 };

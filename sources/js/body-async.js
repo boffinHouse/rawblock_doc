@@ -11,6 +11,7 @@ import './libs/rb-life';
 
 //import Dialog from './modules/dialog';
 import './modules/button';
+import './modules/prism';
 
 if(!Object.assign){
 	Object.assign = assign;
