@@ -13,7 +13,7 @@
 			"title": "Starter Kit",
 			"hook": "To boost your project startup. Start your project with the Rawblock Starter Kit.",
 			"link": "getting_started.html"
-			},
+		},
 		{
 			"title": "Grid Layout",
 			"hook": "We use flexible, multi-device and human readable syntax to setup the basis of your site.",
