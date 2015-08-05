@@ -20,8 +20,8 @@ layout: default_tpl.hbs
 			{{/with}}
 		</div>
 
-		<div class="is-size-70">
-			<div class="rb-richtext  language-markup"">
+		<article class="is-size-70">
+			<article class="rb-richtext language-markup">
 {{#markdown }}
 ##Basic principles
 The structure of the layout is defined by the use of modifier classes. Modifiers in RawBlock are flags set on block or elements to represent a different state or version and are are recognizable by the `.is-*` prefix . The layout modifiers are globally defined and can be used on all elements of the page.
@@ -98,7 +98,32 @@ Here an example of columms with mixed sizes.
 					</div>
 				</div>
 			</div>
-			</div>
+{{#markdown}}
+##Gutters
+
+	<div class="is-column-group is-gutter">
+		<div class="is-size-50">
+			...
+		</div>
+		<div class="is-size-50">
+			...
+		</div>
+	</div>
+{{/markdown}}
+				<div class="rb-example">
+					<div class="is-column-group is-gutter">
+						<div class="is-size-50">
+							{{> rb_test_teaser }}
+						</div>
+						<div class="is-size-50">
+							{{> rb_test_teaser }}
+						</div>
+					</div>
+				</div>
+
+
+
+			</article>
 		</div>
 
 	</div>
